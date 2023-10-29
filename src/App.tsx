@@ -12,7 +12,7 @@ function App() {
   return (
 
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/Task">
     <Routes>
       <Route path="/" element={<Register/>}/>
       <Route path="/tasklist" element={<Tasklist/>}/>
